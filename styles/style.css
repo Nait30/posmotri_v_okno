@@ -49,7 +49,7 @@ ol {
 
 .title {
   color: #fff;
-  font-family: Oswald, Arial;
+  font-family: Oswald, Arial, serif;
   font-size: 75px;
   font-style: normal;
   font-weight: 700;
@@ -60,7 +60,7 @@ ol {
 
 .search-form__fieldset-title {
   color: #fff;
-  font-family: Fira Sans Condensed, Arial;
+  font-family: Fira Sans Condensed, Arial, serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -112,7 +112,7 @@ ol {
   grid-template-columns: 1fr 194px;
 }
 
-.content__card-link:hover{
+.content__card-link:hover:not(:active){
   text-decoration: underline;
 }
 
@@ -138,7 +138,7 @@ ol {
 }
 
 .content__video-card-title {
-  font-family: Oswald, Arial;
+  font-family: Oswald, Arial, serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -220,7 +220,7 @@ ol {
   cursor: pointer;
 }
 
-.search-form__label:has(input[type='checkbox']):hover {
+.search-form__label:has(input[type='checkbox']):hover:not(:active) {
   text-decoration: underline;
 }
 
@@ -257,7 +257,7 @@ ol {
   padding: 6px 145px;
 }
 
-.button:hover {
+.button:hover:not(:active) {
   text-decoration: underline;
 }
 
